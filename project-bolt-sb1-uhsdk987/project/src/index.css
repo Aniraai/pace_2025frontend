@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply antialiased text-gray-800;
+  }
+}
+
+@layer components {
+  input[type="date"]::-webkit-calendar-picker-indicator {
+    @apply ml-auto cursor-pointer;
+  }
+}
